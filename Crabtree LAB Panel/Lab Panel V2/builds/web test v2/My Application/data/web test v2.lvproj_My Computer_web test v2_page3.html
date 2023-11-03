@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Draft//EN">
+<HTML>
+<HEAD>
+<TITLE>Lab Panel</TITLE>
+<script language="javascript">
+   <!-- 
+   LVImages = new Array();
+   LVSrcs = new Array();
+   function LVSched(image, delay) {
+      LVImages[LVImages.length] = image;
+      LVSrcs[LVSrcs.length] = image.src;
+      setInterval("LVUpdate("+(LVImages.length-1)+")", delay);
+      image.onload='';
+   }
+   function LVUpdate(index) {
+      LVImages[index].src = LVSrcs[index] + '&' + Math.random();
+   }
+   //-->
+</script>
+</HEAD>
+<BODY >
+<H1>Lab Panel</H1>
+Page 3<P>
+<IMG src="/.snap?web%20test%20v2.lvproj/My%20Computer/web%20test%20v2.vi" alt="web test v2.lvproj/My Computer/web test v2" BORDER=1 onload="LVSched(this, 1000)"><P>
+
+</BODY>
+</HTML>
