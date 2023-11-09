@@ -41,7 +41,7 @@
 		<Item Name="DaqNavi test2.vi" Type="VI" URL="../../DaqNavi test2.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../../../../Untitled 1.vi"/>
 		<Item Name="Temperature serial v7.vi" Type="VI" URL="../../sub vi/Temperature serial v7.vi"/>
-		<Item Name="Remove Spurious.vi" Type="VI" URL="../../../Remove Spurious.vi"/>
+		<Item Name="Check for valid PF.vi" Type="VI" URL="../../sub vi/Check for valid PF.vi"/>
 		<Item Name="Show Temp Rise values.vi" Type="VI" URL="../../../Show Temp Rise values.vi"/>
 		<Item Name="Check for valid T change.vi" Type="VI" URL="../../sub vi/Check for valid T change.vi"/>
 		<Item Name="Temp Fault Handler.vi" Type="VI" URL="../../sub vi/Temp Fault Handler.vi"/>
@@ -793,7 +793,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{F7B6283B-3062-441E-8520-98E357F1BCE9}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Lab Panel v6_0</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Lab Panel v6_1</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Lab Panel v6_2</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{A221E63F-FCA7-4427-973B-FEAE5CE5FA4F}</Property>
 				<Property Name="Source[1].name" Type="Str">Lab_Panel.html</Property>
@@ -804,7 +804,7 @@
 				<Property Name="Source[2].File[0].tag" Type="Str">{74BF3BA4-E7F6-49D9-B2F4-F99AF509BD8F}</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
-			<Item Name="Lab Panel v6_1" Type="EXE">
+			<Item Name="Lab Panel v6_2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{293B5C81-2825-4BA0-A41B-619C6AADEA62}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0615983E-4251-4765-920E-B7565C1257A8}</Property>
@@ -812,24 +812,24 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{49F8910A-0A92-40DC-8AD3-6A3C70F3D3CB}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">WestCam</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Lab Panel v6_1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Lab Panel v6_2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LabPanel v6_1B</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A0B4D7B9-1BEA-43FB-A3DF-66331EF74A37}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">6</Property>
-				<Property Name="Destination[0].destName" Type="Str">Lab Panel_v6_1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LabPanel v6_1B/Lab Panel_v6_1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Lab Panel_v6.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6/Lab Panel_v6.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LabPanel v6_1B/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{82AD732C-31A0-4BE1-B990-5A28C4E1FC02}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B1BEAE78-53A2-48B7-BB9E-FFEC2FC2A35B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Lab Panel V6.00.vi</Property>
@@ -837,12 +837,12 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">WestCam Ltd (ZA)</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Lab Panel v6_1</Property>
-				<Property Name="TgtF_internalName" Type="Str">Lab Panel v6_1</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Lab Panel v6_2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Lab Panel v6_2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Westplex Ltd (ZA)</Property>
-				<Property Name="TgtF_productName" Type="Str">Lab Panel v6_1</Property>
+				<Property Name="TgtF_productName" Type="Str">Lab Panel v6_2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F7B6283B-3062-441E-8520-98E357F1BCE9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Lab Panel_v6_1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Lab Panel_v6.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LabPanel-V5.25" Type="EXE">
