@@ -46,6 +46,9 @@
 		<Item Name="Check for valid T change.vi" Type="VI" URL="../../sub vi/Check for valid T change.vi"/>
 		<Item Name="Temp Fault Handler.vi" Type="VI" URL="../../sub vi/Temp Fault Handler.vi"/>
 		<Item Name="sub vi - GET ALL TEMP v7.vi" Type="VI" URL="../../sub vi/sub vi - GET ALL TEMP v7.vi"/>
+		<Item Name="Analog In Error Counter.vi" Type="VI" URL="../../sub vi/Analog In Error Counter.vi"/>
+		<Item Name="ExecLog_CreateLog.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_CreateLog.vi"/>
+		<Item Name="ExecLog_LogLabViewError.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_LogLabViewError.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="BioIsFailed.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/BioIsFailed.vi"/>
@@ -253,6 +256,22 @@
 				<Item Name="subDAQNaviAssistant.vi" Type="VI" URL="/&lt;userlib&gt;/_express/DAQNaviAssistantSource.llb/subDAQNaviAssistant.vi"/>
 				<Item Name="ToErrorCluster.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/ToErrorCluster.vi"/>
 				<Item Name="DAQNavi Stop Task.vi" Type="VI" URL="/&lt;userlib&gt;/DAQNavi Polymorphic VI/configure/task/DAQNavi Stop Task.vi"/>
+				<Item Name="SetDevice.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/SetDevice.vi"/>
+				<Item Name="subDAQNaviAssistant2.vi" Type="VI" URL="/&lt;userlib&gt;/_express/DAQNaviAssistantSource_v002.llb/subDAQNaviAssistant2.vi"/>
+				<Item Name="DN4_EventCounting_GetValue_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_EventCounting_GetValue_Ex.vi"/>
+				<Item Name="DN4_FreqMeter_ReadValue_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_FreqMeter_ReadValue_Ex.vi"/>
+				<Item Name="DN4_Counter_SetDelayCount_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_Counter_SetDelayCount_Ex.vi"/>
+				<Item Name="DN4_Counter_DetectCntrEvent_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_Counter_DetectCntrEvent_Ex.vi"/>
+				<Item Name="DN4_Counter_SetFrequency_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_Counter_SetFrequency_Ex.vi"/>
+				<Item Name="DN4_Counter_SetPulseWidth_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_Counter_SetPulseWidth_Ex.vi"/>
+				<Item Name="DN4_Counter_ReadPulseWidth_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_Counter_ReadPulseWidth_Ex.vi"/>
+				<Item Name="DN4_UpDownCounter_GetValue_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_UpDownCounter_GetValue_Ex.vi"/>
+				<Item Name="DN4_ContinueCompare_SetCompareTable_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_ContinueCompare_SetCompareTable_Ex.vi"/>
+				<Item Name="DN4_ContinueCompare_DetectEvent_Ex.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_ContinueCompare_DetectEvent_Ex.vi"/>
+				<Item Name="DN4_BfdCntr_ECRead.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_BfdCntr_ECRead.vi"/>
+				<Item Name="DN4_BfdCntr_PwMeterRead.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_BfdCntr_PwMeterRead.vi"/>
+				<Item Name="DN4_BfdCntr_UDRead.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_BfdCntr_UDRead.vi"/>
+				<Item Name="DN4_BfdCntr_PwModulatorWrite.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/DN4_BfdCntr_PwModulatorWrite.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -343,15 +362,17 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 			</Item>
 			<Item Name="AdvLvDaq.dll" Type="Document" URL="../../../../../../../../../Windows/System32/AdvLvDaq.dll"/>
 			<Item Name="Check For Amps on v1.vi" Type="VI" URL="../../sub vi/Check For Amps on v1.vi"/>
 			<Item Name="DAQNavi_LV.dll" Type="Document" URL="../../../../../../../../../Windows/System32/DAQNavi_LV.dll"/>
-			<Item Name="ExecLog_AddLogEntry.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Log Files/PeriodicLogFiles.llb/ExecLog_AddLogEntry.vi"/>
-			<Item Name="ExecLog_LogLabViewError.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Log Files/PeriodicLogFiles.llb/ExecLog_LogLabViewError.vi"/>
-			<Item Name="ExecLog_PadString.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Log Files/PeriodicLogFiles.llb/ExecLog_PadString.vi"/>
-			<Item Name="ExecLog_Type.ctl" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Log Files/PeriodicLogFiles.llb/ExecLog_Type.ctl"/>
-			<Item Name="ExecLog_WriteToLogFile_Periodic.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Log Files/PeriodicLogFiles.llb/ExecLog_WriteToLogFile_Periodic.vi"/>
 			<Item Name="Global 1.vi" Type="VI" URL="../Global 1.vi"/>
 			<Item Name="Global display 1.vi" Type="VI" URL="../Global display 1.vi"/>
 			<Item Name="Global display 2.vi" Type="VI" URL="../Global display 2.vi"/>
@@ -359,7 +380,6 @@
 			<Item Name="Global display 4.vi" Type="VI" URL="../Global display 4.vi"/>
 			<Item Name="Lab Send Mail Test.vi" Type="VI" URL="../../sub vi/Lab Send Mail Test.vi"/>
 			<Item Name="Less Simple Error Handler.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Misc/Less Simple Error Handler.vi"/>
-			<Item Name="LogFileGlobals.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common64/Log Files/PeriodicLogFiles.llb/LogFileGlobals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Message Display V1.vi" Type="VI" URL="../../sub vi/Message Display V1.vi"/>
 			<Item Name="Reset Meas v 5.vi" Type="VI" URL="../../sub vi/Reset Meas v 5.vi"/>
@@ -387,6 +407,13 @@
 			<Item Name="sub vi-open serial port v1.vi" Type="VI" URL="../../sub vi/sub vi-open serial port v1.vi"/>
 			<Item Name="subvi-simulate v1.vi" Type="VI" URL="../../sub vi/subvi-simulate v1.vi"/>
 			<Item Name="Temperature serial v2.vi" Type="VI" URL="../../Temperature test/Temperature serial v2.vi"/>
+			<Item Name="ExecLog_AddLogEntry.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_AddLogEntry.vi"/>
+			<Item Name="ExecLog_Type.ctl" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_Type.ctl"/>
+			<Item Name="ExecLog_WriteToLogFile_Periodic.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_WriteToLogFile_Periodic.vi"/>
+			<Item Name="LogFileGlobals.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/LogFileGlobals.vi"/>
+			<Item Name="ExecLog_PadString.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_PadString.vi"/>
+			<Item Name="LimitArraySize_Varianr.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Array/LimitArraySize_Varianr.vi"/>
+			<Item Name="App Data Files and folders.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/File Functions/App Data Files and folders.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Display Panel" Type="EXE">
@@ -768,7 +795,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Lab Panel v6</Property>
 				<Property Name="INST_defaultDir" Type="Str">{A221E63F-FCA7-4427-973B-FEAE5CE5FA4F}</Property>
 				<Property Name="INST_productName" Type="Str">Lab Panel V6</Property>
-				<Property Name="INST_productVersion" Type="Str">6.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">6.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17018002</Property>
 				<Property Name="MSI_arpCompany" Type="Str">WestCam Ltd (ZA)</Property>
@@ -816,20 +843,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6_23</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A0B4D7B9-1BEA-43FB-A3DF-66331EF74A37}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">56</Property>
 				<Property Name="Bld_version.major" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lab Panel_v6.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6/Lab Panel_v6.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6_23/Lab Panel_v6.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6_23/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1BEAE78-53A2-48B7-BB9E-FFEC2FC2A35B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D53F2AA3-73E7-443E-90E1-E78EAECA14A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Lab Panel V6.00.vi</Property>
