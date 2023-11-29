@@ -49,6 +49,7 @@
 		<Item Name="Analog In Error Counter.vi" Type="VI" URL="../../sub vi/Analog In Error Counter.vi"/>
 		<Item Name="ExecLog_CreateLog.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_CreateLog.vi"/>
 		<Item Name="ExecLog_LogLabViewError.vi" Type="VI" URL="../../../../../../../../../Projects/LabVIEW/Common/Labview2017-64-Common/Log Files/LogFiles.llb/ExecLog_LogLabViewError.vi"/>
+		<Item Name="SaveWWWImages.vi" Type="VI" URL="../../sub vi/SaveWWWImages.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="BioIsFailed.vi" Type="VI" URL="/&lt;userlib&gt;/_express/AdvComponent/BioIsFailed.vi"/>
@@ -766,7 +767,7 @@
 				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2017</Property>
 				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">true</Property>
 				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2017</Property>
 				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{4F261250-2C38-488D-A9EC-9D1EFCC24D4B}</Property>
 				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
@@ -809,7 +810,7 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{A221E63F-FCA7-4427-973B-FEAE5CE5FA4F}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{A221E63F-FCA7-4427-973B-FEAE5CE5FA4F}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Lab Panel_v6.0.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Lab Panel_v6.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Lab Panel_v6.0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Lab Panel V2</Property>
@@ -819,7 +820,7 @@
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{F7B6283B-3062-441E-8520-98E357F1BCE9}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Lab Panel v6_0</Property>
+				<Property Name="Source[0].name" Type="Str">Lab Panel v6_2</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Lab Panel v6_2</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{A221E63F-FCA7-4427-973B-FEAE5CE5FA4F}</Property>
@@ -847,7 +848,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A0B4D7B9-1BEA-43FB-A3DF-66331EF74A37}</Property>
-				<Property Name="Bld_version.build" Type="Int">56</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lab Panel_v6.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LAB Panel v6_23/Lab Panel_v6.exe</Property>
