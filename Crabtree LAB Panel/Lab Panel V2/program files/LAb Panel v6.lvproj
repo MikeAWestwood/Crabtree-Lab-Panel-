@@ -400,7 +400,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Mike/Documents/Crabtree/Crabtree/Crabtree LAB Panel/NI_AB_PROJECTNAME/builds/Lab Pane; V6</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40B8DF2B-293E-42F9-B4AB-C806721AEC30}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Lab Panel v6.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Mike/Documents/Crabtree/Crabtree/Crabtree LAB Panel/NI_AB_PROJECTNAME/builds/Lab Pane; V6/Lab Panel v6.exe</Property>
